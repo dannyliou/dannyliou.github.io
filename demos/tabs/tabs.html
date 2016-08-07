@@ -28,7 +28,13 @@
     <script type="text/javascript" src="../../vendor/zepto.min.js"></script>
     <script type="text/javascript" src="tabs.js"></script>
     <script type="text/javascript">
-      $('.tabs').tabs();
+        $('.tabs').tabs();
+        $('.tabs').on('tabs:show', function(ev, prename, curname) {
+            console.log(prename, curname);
+        })
+        $('.tabs').on('tabs:hide', function(ev, name) {
+            console.log(name);
+        })
     </script>
 </body>
 
