@@ -1,11 +1,25 @@
+.tabs{
+  padding: 50px;
+}
+
 .nav {
   overflow: hidden;
 }
 .nav li{
   float: left;
-  width: 33.33%;
-  height: 20px;
+  width: 20%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
 }
 .nav li.active{
-  background: red;
+  background: #62ab00;
+  color: #fff;
+  border-radius: 4px;
+}
+.tabs>div{
+  padding: 30px;
+  text-align: center;
+  font-size: 3rem;
+  background: #fff;
 }
