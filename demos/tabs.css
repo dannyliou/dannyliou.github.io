@@ -1,0 +1,11 @@
+.nav {
+  overflow: hidden;
+}
+.nav li{
+  float: left;
+  width: 33.33%;
+  height: 20px;
+}
+.nav li.active{
+  background: red;
+}
